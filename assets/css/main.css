@@ -604,3 +604,40 @@ body {
   color: #ededed;
   background-color: #006729;
 }
+
+.header__tracking {
+  background-image: url("/assets/img/bg-tra-cuu-thong-tin.png");
+  height: 360px;
+  background-size: cover;
+  border-bottom: #006f2c 12px solid;
+  position: relative;
+}
+
+.header__wrapper {
+  color: #ededed;
+  padding-top: 80px;
+  height: 100%;
+}
+
+.header__wrapper > .header__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.header__wrapper > .header__content {
+  width: 50%;
+  font-size: 18px;
+}
+
+.header__wrapper > .breadrum {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  padding: 16px 32px 4px 32px;
+  background-color: #006f2c;
+}
+
+.header__wrapper > .breadrum > .breadrum__here {
+  font-size: 18px;
+}
