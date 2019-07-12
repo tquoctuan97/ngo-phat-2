@@ -1,0 +1,25 @@
+{
+  "name": "ngo-phat-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass --output-style expanded --linefeed lf --include-path scss ./style.scss -o ./",
+    "watch": "nodemon -e scss -x npm run css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tquoctuanit/ngo-phat-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tquoctuanit/ngo-phat-2/issues"
+  },
+  "homepage": "https://github.com/tquoctuanit/ngo-phat-2#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
