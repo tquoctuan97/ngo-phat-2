@@ -25,11 +25,10 @@ html {
  * Basic styles for links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
+}
 
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
+a:hover {
+  color: $brand-color-green;
 }

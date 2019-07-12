@@ -1,3 +1,23 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.btn__cta {
+  display: block;
+  width: 178px;
+  height: 45px;
+  text-transform: uppercase;
+  background-color: $brand-color-green;
+  color: $light-grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.btn__cta:hover {
+  color: $light-grey;
+  background-color: $brand-color-green--dark;
+}

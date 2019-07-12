@@ -473,8 +473,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #006f2c;
+a:hover, a:active, a:focus {
+  color: #2e3230;
+  text-decoration: underline;
 }
 
 /**
@@ -482,7 +483,7 @@ a:hover {
  */
 body {
   color: #2e3230;
-  font: normal 125%/1.4 "Roboto", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /**
@@ -544,63 +545,9 @@ body {
   width: 1px;
 }
 
-.drop-shadow {
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-.header__bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 72px;
-  background-color: #fff;
-}
-
-.header__brand {
-  display: flex;
-}
-
-.header__brand > .brand-logo {
-  width: 49.93px;
-  height: 41.92px;
-  align-self: center;
-  margin-right: 10px;
-}
-
-.header__brand > .brand-name {
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: bold;
-  color: #006f2c;
-}
-
-.navigation__list {
-  list-style: none;
-  display: flex;
-}
-
-.navigation__list > .navigation__items {
-  font-size: 18px;
-  margin-right: 25px;
-  align-self: center;
-}
-
 .btn__cta {
-  display: block;
   width: 178px;
   height: 45px;
   text-transform: uppercase;
   background-color: #006f2c;
-  color: #ededed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 3px;
-}
-
-.btn__cta:hover {
-  color: #ededed;
-  background-color: #006729;
 }
