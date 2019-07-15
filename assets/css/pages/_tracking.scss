@@ -1,34 +1,9 @@
 .header__tracking {
   background-image: url('/assets/img/bg-tra-cuu-thong-tin.png');
-  height: 360px;
+  height: auto;
   background-size: cover;
   border-bottom: $brand-color-green 12px solid;
   position: relative;
-}
-
-.header__wrapper {
-  color: $light-grey;
-  padding-top: 110px;
-  height: 100%;
-  > .header__title {
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-bottom: 16px;
-  }
-  > .header__content {
-    width: 50%;
-    font-size: 18px;
-  }
-  > .breadrum {
-    position: absolute;
-    bottom: 0;
-    font-size: 16px;
-    padding: 16px 32px 4px 32px;
-    background-color: $brand-color-green;
-    > .breadrum__here {
-      font-size: 18px;
-    }
-  }
 }
 
 .wrapper__content {

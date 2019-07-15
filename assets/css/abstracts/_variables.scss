@@ -38,6 +38,14 @@ $dark-grey: #fafafa !default;
 /// @type Length
 $max-width: 1180px !default;
 
+$main-padding: 120px !default;
+$md-padding: 60px !default;
+
+$title: 40px !default;
+$md-title: 32px !default;
+
+$md-fontSize: 16px !default;
+
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
