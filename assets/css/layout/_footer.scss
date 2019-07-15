@@ -1,3 +1,51 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+footer {
+  background-image: url('/assets/img/bg-footer.png');
+  background-size: cover;
+  background-position: right top;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer ul {
+  list-style: none;
+  font-size: 14px;
+}
+.footer__link strong {
+  font-size: 18px;
+}
+.footer__link ul {
+  margin-top: 19px;
+}
+.footer__link li {
+  margin-bottom: 16px;
+}
+
+.footer__information {
+  display: flex;
+  > .contact__information {
+    margin-left: 27px;
+  }
+}
+
+.contact__information li {
+  margin-bottom: 10px;
+}
+
+.contact__information > .brand-name {
+  margin-bottom: 19px;
+}
+
+.copyright {
+  background-color: $brand-color-green;
+  color: $text-color;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  bottom: 0;
+}

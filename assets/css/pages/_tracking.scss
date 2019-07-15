@@ -8,9 +8,8 @@
 
 .header__wrapper {
   color: $light-grey;
-  padding-top: 80px;
+  padding-top: 110px;
   height: 100%;
-
   > .header__title {
     text-transform: uppercase;
     font-size: 40px;
@@ -30,4 +29,9 @@
       font-size: 18px;
     }
   }
+}
+
+.wrapper__content {
+  height: 100vh;
+  background-color: #fafffc;
 }
