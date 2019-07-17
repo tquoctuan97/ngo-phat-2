@@ -2967,3 +2967,11 @@ input[type='radio']:checked ~ label {
     font-size: 24px;
   }
 }
+
+.header__news {
+  background: url("/assets/img/bg-tin-tuc.png") no-repeat;
+  height: auto;
+  background-size: cover;
+  border-bottom: #006f2c 12px solid;
+  position: relative;
+}
