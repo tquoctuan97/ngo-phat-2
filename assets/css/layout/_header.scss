@@ -40,24 +40,24 @@
   color: $light-grey;
   padding: 120px 0px;
   height: 100%;
-  > .header__title {
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-bottom: 16px;
-  }
-  > .header__content {
-    width: 50%;
+}
+.header__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.header__content {
+  width: 50%;
+  font-size: 18px;
+}
+.breadrum {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  padding: 16px 32px 4px 32px;
+  background-color: $brand-color-green;
+  > .breadrum__here {
     font-size: 18px;
-  }
-  > .breadrum {
-    position: absolute;
-    bottom: 0;
-    font-size: 16px;
-    padding: 16px 32px 4px 32px;
-    background-color: $brand-color-green;
-    > .breadrum__here {
-      font-size: 18px;
-    }
   }
 }
 

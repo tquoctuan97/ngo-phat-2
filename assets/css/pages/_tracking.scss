@@ -1,3 +1,5 @@
+// Page Tracking Order
+
 .header__tracking {
   background-image: url('/assets/img/bg-tra-cuu-thong-tin.png');
   height: auto;
@@ -157,11 +159,15 @@ input[type='radio']:checked ~ label {
   font-weight: bold;
   margin-top: 37px;
   padding: 20px 0px;
-  background-color: #ff5200;
+  background-color: $brand-color-orange;
   color: #ededed;
   min-width: 150px;
   width: 45%;
   border-radius: 3px;
+}
+
+.form__submit:hover {
+  background-color: $brand-color-orange--dark;
 }
 
 .group__list {
@@ -181,5 +187,8 @@ input[type='radio']:checked ~ label {
   }
   .container__box:last-child {
     margin-bottom: 0;
+  }
+  .form__submit {
+    font-size: $f-body-16px;
   }
 }
