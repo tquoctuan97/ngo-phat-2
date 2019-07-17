@@ -12,13 +12,13 @@
   padding: $main-padding 0px;
 }
 
-.form__tracking ul {
+.list__tracking {
   margin-top: 38px;
   margin-bottom: 48px;
   list-style: none;
 }
 
-ul li {
+.list__tracking li {
   color: $text-color;
   display: block;
   position: relative;
@@ -26,12 +26,12 @@ ul li {
   width: 100%;
 }
 
-ul li input[type='radio'] {
+.list__tracking li input[type='radio'] {
   position: absolute;
   visibility: hidden;
 }
 
-ul li label {
+.list__tracking li label {
   display: block;
   position: relative;
   min-width: 168px;
@@ -45,7 +45,7 @@ ul li label {
   transition: all 0.25s linear;
 }
 
-ul li:hover label {
+.list__tracking li:hover label {
   color: $brand-color-orange;
 }
 
