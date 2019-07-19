@@ -1,0 +1,243 @@
+// Page Archive Post
+
+.header__news {
+  background: url('/assets/img/bg-tin-tuc.png') no-repeat;
+  height: auto;
+  background-size: cover;
+  border-bottom: $brand-color-green 12px solid;
+  position: relative;
+}
+
+.grid__post {
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.post__card {
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* margin: 0 30px 57px 0; */
+}
+
+.post__card:hover .post__card-img {
+  transform: scale(1.2);
+  filter: blur(1px) brightness(0.5);
+}
+
+.post__card-content {
+  padding: 28px;
+}
+
+.post__card-img-zone {
+  height: 240px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.post__card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.post__card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.0015em;
+  text-transform: capitalize;
+  color: #2e3230;
+}
+
+.meta__row {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post__card-info {
+  margin-top: 12px;
+}
+
+.post__card-date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #7b7e7d;
+}
+
+.dot {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: #2e3230;
+  margin: 0 6px;
+}
+
+.post__card-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #2e3230;
+}
+
+.post__card-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7b7e7d;
+  margin-top: 21px;
+}
+
+.post__card-detail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ff5200;
+  margin-top: 31px;
+  cursor: pointer;
+}
+
+.hot-view {
+  padding: 46px 0;
+}
+
+.hot-view__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.0015em;
+  text-transform: capitalize;
+  color: #2e3230;
+}
+
+.hot-view__post {
+  display: flex;
+  flex-direction: row;
+  margin: 18px 0;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.5);
+  padding-bottom: 16px;
+}
+
+.hot-view__post-number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.0015em;
+  color: #ff5200;
+  margin: 0 30px;
+}
+
+.hot-view__post-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e3230;
+  cursor: pointer;
+}
+
+.hot-view__post-date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #7b7e7d;
+}
+
+.hot-view__post-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #2e3230;
+}
+
+.post__pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.post__pagination-cell {
+  height: 44px;
+  width: 44px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2e3230;
+}
+
+.post__pagination-cell:hover {
+  color: #ffffff;
+  background-color: #006f2c;
+}
+
+.post__pagination-cell.active {
+  color: #ffffff;
+  background-color: #006f2c;
+}
+
+// Search
+.search {
+  display: flex;
+  position: relative;
+}
+
+.search__input {
+  height: 50px;
+  width: 100%;
+  background: rgba(227, 230, 233, 0.3);
+  border: 0.5px solid #979797;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.search__icon {
+  position: absolute;
+  right: 9.88px;
+  top: 12.5px;
+}
