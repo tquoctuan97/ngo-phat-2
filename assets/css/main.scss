@@ -16,7 +16,8 @@
 @import 'components/button';
 
 // 6. Page-specific styles
-@import 'pages/home', 'pages/tracking', 'pages/page404', 'pages/archive-post';
+@import 'pages/home', 'pages/tracking', 'pages/page404', 'pages/archive-post',
+  'pages/single-post';
 
 // 7. Themes
 @import 'themes/default';
