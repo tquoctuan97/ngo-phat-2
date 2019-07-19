@@ -56,9 +56,18 @@
   font-size: 16px;
   padding: 16px 32px 4px 32px;
   background-color: $brand-color-green;
-  > .breadrum__here {
-    font-size: 18px;
-  }
+  display: flex;
+  justify-content: center;
+}
+.breadrum a {
+  color: $light-grey;
+}
+.breadrum a:hover {
+  color: $light-grey;
+}
+
+.breadrum .ic-arrow-right {
+  margin: 0px;
 }
 
 @media (max-width: 1000px) {

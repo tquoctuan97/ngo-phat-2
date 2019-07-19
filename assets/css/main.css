@@ -2715,10 +2715,20 @@ body {
   font-size: 16px;
   padding: 16px 32px 4px 32px;
   background-color: #006f2c;
+  display: flex;
+  justify-content: center;
 }
 
-.breadrum > .breadrum__here {
-  font-size: 18px;
+.breadrum a {
+  color: #ededed;
+}
+
+.breadrum a:hover {
+  color: #ededed;
+}
+
+.breadrum .ic-arrow-right {
+  margin: 0px;
 }
 
 @media (max-width: 1000px) {
@@ -2807,6 +2817,7 @@ footer ul {
 }
 
 .btn__cta {
+  all: unset;
   display: block;
   width: 178px;
   height: 45px;
@@ -3316,4 +3327,55 @@ input[type='radio']:checked ~ label {
 
 .single-post__relate {
   max-width: 350px;
+}
+
+.header__contact {
+  background: url("/assets/img/bg-lien-he.png") no-repeat;
+  height: auto;
+  background-size: cover;
+  border-bottom: #006f2c 12px solid;
+  position: relative;
+}
+
+.contact__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+
+.card__contact .form__group {
+  margin-bottom: 24px;
+}
+
+.card__contact input,
+.card__contact textarea,
+.card__contact select {
+  position: relative;
+  outline: none;
+  background-color: #ededed;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px 10px 40px;
+  border-radius: 5px;
+  min-height: 48px;
+  font-size: 17px;
+}
+
+.card__contact textarea {
+  padding: 10px 20px;
+  resize: none;
+  height: 100px;
+}
+
+.card__contact input + span,
+.card__contact select + span {
+  position: absolute;
+  left: 32px;
+  top: 41%;
+  transform: translate(-50%, -50%);
+  height: 17px;
+  width: 17px;
+  color: #7a7a7a;
 }
