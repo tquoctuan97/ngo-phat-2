@@ -8,8 +8,6 @@ $(window).on('load',function() {
     var owl3 = $('.owl-carousel-3');
     var owl5 = $('.owl-carousel-5');
 
-
-
     owl.owlCarousel({
         items: 1,
         nav: true,
@@ -91,26 +89,14 @@ $(window).on('load',function() {
         });
     }
     
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 100) {
-          $("header").addClass("header__sticky");
-        } else {
-          $("header").removeClass("header__sticky");
-        }
-      });
-// func stop video
-// https://gist.github.com/cferdinandi/9044694
-    // function stopVideo(element) {
-	// var iframe = $('iframe');
-	// var video = $('video');
-	// if (iframe) {
-	// 	var iframeSrc = iframe.src;
-	// 	iframe.src = iframeSrc;
-	// }
-	// if (video) {
-	// 	video.click();
-	// }
-    // };
+    // $(window).scroll(function() {
+    //     if ($(document).scrollTop() > 100) {
+    //       $("header").addClass("header__sticky");
+    //     } else {
+    //       $("header").removeClass("header__sticky");
+    //     }
+    // });
+
     var videoWrap = $('#video-popup');
     $("[data-module='popup-video']").click(function (e) { 
         videoWrap.toggleClass('active');        
