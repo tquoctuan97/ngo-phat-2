@@ -28,7 +28,7 @@
             </nav>
         </div>
     </header>
-    <section class="header__news">
+    <section class="header__bg" style="background-image: url('/assets/img/bg-tin-tuc.png')">
         <div class="container">
             <div class="header__wrapper">
                 <h1 class="header__title">Dịch vụ đa dạng</h1>
@@ -36,7 +36,8 @@
                     tempor
                     incididunt ut labore et dolore magna aliqua.</p>
                 <div class="breadrum">
-                    Bạn đang ở đây: Trang chủ > <span class="breadrum__here">Dịch vụ</span>
+                    <span>Bạn đang ở đây: <a href="#">Trang chủ</a> </span><span class="ic-arrow-right"></span> <span
+                        class="breadrum__here">Dịch vụ</span>
                 </div>
             </div>
 
@@ -44,7 +45,7 @@
     </section>
     <div class="container">
         <section class="row wrapper__content">
-            <div class="col-md-3">
+            <div class="col-lg-3 order-lg-1 order-md-2 order-sm-2 order-2">
                 <div class="single-service__left-menu">
                     <a class="single-service__left-menu-item active">Vận Chuyển Hàng Không</a>
                     <a class="single-service__left-menu-item">Khai Thuế Hải Quan</a>
@@ -54,27 +55,36 @@
                     <a class="single-service__left-menu-item">Vận Chuyển Hàng Không</a>
                 </div>
                 <!-- Write sidebar -->
-                <section class="wrapper__box" style="height: auto;">
+                <section style="height: auto">
                     <div>
                         <h3 class="wrapper__title">Hỗ trợ trực tuyến</h3>
                         <div class="line"></div>
                         <div class="group__list">
-                            <a href="#">08 3518 0499</a>
-                            <a href="#">08 3518 0488</a>
+                            <a href="#">
+                                <span class="ic-phone"></span>08 3518 0499
+                            </a>
+                            <a href="#">
+                                <span class="ic-phone"></span>08 3518 0488
+                            </a>
                         </div>
                     </div>
                     <div>
                         <h3 class="wrapper__title">Tài liệu dịch vụ</h3>
                         <div class="line"></div>
                         <div class="group__list">
-                            <a href="#">Catalog dịch vụ 2019</a>
-                            <a href="#">Bảng giá dịch vụ Quý II/ 2019</a>
+                            <a href="#">
+                                <span class="ic-download"></span>Catalog dịch vụ 2019
+                            </a>
+                            <a href="#">
+                                <span class="ic-download"></span>Bảng giá dịch vụ Quý II/ 2019
+                            </a>
                         </div>
                     </div>
                 </section>
+
             </div>
-            <div class="col-md-9">
-                
+            <div class="col-lg-9 order-lg-2 order-md-1 order-sm-1 order-1">
+
                 <div class="single-service__title-zone">
                     <div class="single-service__title">
                         Vận Chuyển Hàng Không
@@ -112,13 +122,17 @@
                     <div class="single-service__others-title">XEM THÊM CÁC DỊCH VỤ KHÁC</div>
                     <div class="single-service__others-nav">
                         <div class="single-service__others-nav-button">
-                            <img class="single-service__others-nav-icon" src="./../assets/img/arrow.png" alt="previous"/>
+                            <img class="single-service__others-nav-icon" src="./../assets/img/arrow.png"
+                                alt="previous" />
                             <span class="single-service__others-nav-text">Dịch Vụ Hải Quan</span>
                         </div>
-                        <div style="flex: 1;"><div class="single-service__others-line"></div></div>
+                        <div style="flex: 1;">
+                            <div class="single-service__others-line"></div>
+                        </div>
                         <div class="single-service__others-nav-button">
                             <span class="single-service__others-nav-text">Vận Chuyển Hàng Lẻ</span>
-                            <img class="single-service__others-nav-icon" style="transform: rotate(180deg);" src="./../assets/img/arrow.png" alt="previous"/>
+                            <img class="single-service__others-nav-icon" style="transform: rotate(180deg);"
+                                src="./../assets/img/arrow.png" alt="previous" />
                         </div>
                     </div>
                 </div>
@@ -134,10 +148,14 @@
                     <div class="contact__information">
                         <p class="brand-name">NGO PHAT TS CO., LTD. (NPCO)</p>
                         <ul>
-                            <li><a href="#">20/4 Nguyễn Hữu Thọai, P.19, Q.Bình Thạnh, TP.HCM
+                            <li class="contact__item"><span class="ic-place"></span><a href="#">20/4 Nguyễn Hữu Thọai,
+                                    P.19, Q.Bình Thạnh,
+                                    TP.HCM
                                 </a></li>
-                            <li><a href="#">+848 3518 0499</a></li>
-                            <li><a href="#">info@ngophat.com</a></li>
+                            <li class="contact__item"><span class="ic-phone"></span><a href="#"></span>+848 3518
+                                    0499</a></li>
+                            <li class="contact__item"><span class="ic-email"></span><a href="#">info@ngophat.com</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -171,8 +189,6 @@
                 </div>
             </div>
         </div>
-
-
     </footer>
     <div class="copyright">
         Copyright NGO PHAT TS CO., LTD ©2019 All rights reserved

@@ -35,6 +35,12 @@
     align-self: center;
   }
 }
+.header__bg {
+  height: auto;
+  background-size: cover !important;
+  border-bottom: $brand-color-green 12px solid;
+  position: relative;
+}
 
 .header__wrapper {
   color: $light-grey;
