@@ -2549,7 +2549,7 @@ a:hover {
   text-transform: none;
   line-height: 1;
   font-size: 24px;
-  margin-right: 12px;
+  margin-right: 10px;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2775,6 +2775,15 @@ footer ul {
 
 .contact__information > .brand-name {
   margin-bottom: 19px;
+}
+
+.contact__item {
+  display: flex;
+  justify-items: flex-start;
+}
+
+.contact__item span {
+  font-size: 16px;
 }
 
 .copyright {
@@ -3075,11 +3084,8 @@ input[type='radio']:checked ~ label {
 }
 
 .post__card-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 150%;
   letter-spacing: 0.0015em;
   text-transform: capitalize;
   color: #2e3230;
@@ -3096,11 +3102,7 @@ input[type='radio']:checked ~ label {
 }
 
 .post__card-date {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
-  line-height: 150%;
   letter-spacing: 0.015em;
   color: #7b7e7d;
 }
@@ -3114,31 +3116,20 @@ input[type='radio']:checked ~ label {
 }
 
 .post__card-type {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
-  line-height: 150%;
   letter-spacing: 0.015em;
   color: #2e3230;
 }
 
 .post__card-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 150%;
   color: #7b7e7d;
   margin-top: 21px;
 }
 
 .post__card-detail {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 150%;
   letter-spacing: 0.015em;
   text-transform: uppercase;
   color: #ff5200;
@@ -3151,11 +3142,8 @@ input[type='radio']:checked ~ label {
 }
 
 .hot-view__title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 150%;
   letter-spacing: 0.0015em;
   text-transform: capitalize;
   color: #2e3230;
@@ -3170,42 +3158,28 @@ input[type='radio']:checked ~ label {
 }
 
 .hot-view__post-number {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
-  line-height: 150%;
   letter-spacing: 0.0015em;
   color: #ff5200;
   margin: 0 30px;
 }
 
 .hot-view__post-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
   color: #2e3230;
   cursor: pointer;
 }
 
 .hot-view__post-date {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
-  line-height: 150%;
   letter-spacing: 0.015em;
   color: #7b7e7d;
 }
 
 .hot-view__post-type {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
-  line-height: 150%;
   letter-spacing: 0.015em;
   color: #2e3230;
 }
@@ -3228,8 +3202,6 @@ input[type='radio']:checked ~ label {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -3259,9 +3231,6 @@ input[type='radio']:checked ~ label {
   box-sizing: border-box;
   border-radius: 5px;
   padding: 0 10px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
 }
 
