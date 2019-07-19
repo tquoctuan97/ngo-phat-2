@@ -41,6 +41,11 @@ footer ul {
   margin-bottom: 19px;
 }
 
+.contact__item {
+  display: flex;
+  justify-items: center;
+}
+
 .copyright {
   background-color: $brand-color-green;
   color: $light-grey;

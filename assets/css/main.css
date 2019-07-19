@@ -2549,7 +2549,7 @@ a:hover {
   text-transform: none;
   line-height: 1;
   font-size: 24px;
-  margin-right: 12px;
+  margin-right: 10px;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2775,6 +2775,11 @@ footer ul {
 
 .contact__information > .brand-name {
   margin-bottom: 19px;
+}
+
+.contact__item {
+  display: flex;
+  justify-items: center;
 }
 
 .copyright {
