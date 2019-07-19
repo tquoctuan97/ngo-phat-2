@@ -2752,6 +2752,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .breadrum {
+    display: none;
+  }
+}
+
 footer {
   background-image: url("/assets/img/bg-footer.png");
   background-position: 100% 50% !important;
