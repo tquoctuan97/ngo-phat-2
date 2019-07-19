@@ -9,7 +9,8 @@
 }
 
 .wrapper__content {
-  padding: $main-padding 0px;
+  padding-top: $main-padding;
+  padding-bottom: $main-padding;
 }
 
 .list__tracking {
@@ -177,7 +178,8 @@ input[type='radio']:checked ~ label {
 }
 
 .group__list a {
-  display: block;
+  display: flex;
+  align-items: center;
   margin-top: 10px;
 }
 
