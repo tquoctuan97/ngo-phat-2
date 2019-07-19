@@ -3247,7 +3247,7 @@ header {
 /* post-news section */
 #news {
   padding: 140px 0;
-  background-color: var(--grey-color);
+  background-color: #FAFFFC;
 }
 
 /* customers section */
@@ -4315,4 +4315,244 @@ input[type='radio']:checked ~ label {
   height: 17px;
   width: 17px;
   color: #7a7a7a;
+}
+
+.grid__service {
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.service__card {
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* margin: 0 30px 57px 0; */
+}
+
+.service__card:hover .service__card-img {
+  transform: scale(1.2);
+  filter: blur(1px) brightness(0.5);
+}
+
+.service__card-content {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__card-img-zone {
+  height: 240px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.service__card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.service__card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  text-transform: uppercase;
+  color: #2E3230;
+}
+
+.service__card-line {
+  width: 58.06px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+}
+
+.dot {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: #2e3230;
+  margin: 0 6px;
+}
+
+.service__card-type {
+  font-size: 12px;
+  letter-spacing: 0.015em;
+  color: #2e3230;
+}
+
+.service__card-text {
+  font-size: 16px;
+  color: #7b7e7d;
+  margin-top: 21px;
+  text-align: center;
+}
+
+.service__card-detail {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ff5200;
+  margin-top: 44px;
+  cursor: pointer;
+}
+
+.single-service__title-zone {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.single-service__content {
+  padding: 46px 0;
+  font-size: 16px;
+}
+
+.single-service__title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 17px;
+}
+
+.single-service__subtile-zone {
+  margin: 10px 0;
+}
+
+.signle-post__feature-img {
+  width: 100%;
+}
+
+.single-service__share-box {
+  height: 96px;
+  background: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px 0 19px;
+}
+
+.facebook__logo {
+  width: 48px;
+  height: 48px;
+}
+
+.facebook__embedded {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+}
+
+.grid-post {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.single-service__relate-zone {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.single-service__relate-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #2e3230;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.single-service__relate {
+  max-width: 350px;
+}
+
+.single-service__left-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid #FF5200;
+  margin-bottom: 58px;
+}
+
+.single-service__left-menu-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 48px;
+  background: #333333;
+  padding-left: 28px;
+  height: 48px;
+  width: 100%;
+  background: #FAFAFA;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.single-service__left-menu-item.active {
+  background: #FF5200;
+  color: #FAFAFA;
+}
+
+.single-service__others {
+  margin-top: 50px;
+  height: 22px;
+}
+
+.single-service__others-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.0015em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.single-service__others-nav {
+  margin-top: 15px;
+  display: flex;
+}
+
+.single-service__others-nav-icon {
+  height: 22px;
+}
+
+.single-service__others-nav-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.single-service__others-nav-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  padding: 0 12px;
+}
+
+.single-service__others-line {
+  height: 22px;
+  width: 1px;
+  background: #333333;
+  margin: auto;
 }
