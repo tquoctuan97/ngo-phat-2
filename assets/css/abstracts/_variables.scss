@@ -1,0 +1,65 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Roboto', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+  'Monaco', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #2e3230 !default;
+
+/// Main brand color
+/// @type Color
+$brand-color-green: #006f2c !default;
+$brand-color-green--dark: #006729 !default;
+
+$brand-color-orange: #ff5200 !default;
+$brand-color-orange--dark: #ee4d00 !default;
+
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: #7b7e7d !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #fafafa !default;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+$main-padding: 120px !default;
+$md-padding: 60px !default;
+
+$heading: 40px !default;
+$md-heading: 32px !default;
+
+$title: 32px !default;
+$md-title: 24px !default;
+
+$md-fontSize: 16px !default;
+$f-body-16px: 16px !default;
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px
+) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

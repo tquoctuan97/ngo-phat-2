@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css": "node-sass --output-style expanded --linefeed lf --include-path scss assets/stylesheets/main.scss -o assets/stylesheets/",
+    "css": "node-sass --output-style expanded --linefeed lf --include-path scss ./assets/css/main.scss -o ./assets/css/",
     "watch": "nodemon -e scss -x npm run css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
