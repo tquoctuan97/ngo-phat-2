@@ -1,0 +1,2 @@
+<textarea <?php if($row->required == 1): ?> required <?php endif; ?> class="form-control" name="<?php echo e($row->field, false); ?>" rows="<?php echo e($options->display->rows ?? 5, false); ?>"><?php echo e(old($row->field, $dataTypeContent->{$row->field} ?? $options->default ?? ''), false); ?></textarea>
+<?php /**PATH C:\xampp\htdocs\ngophat\vendor\tcg\voyager\src/../resources/views/formfields/text_area.blade.php ENDPATH**/ ?>

@@ -1,0 +1,66 @@
+//  Single Post
+.single-post__title-zone {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.single-post__content {
+  padding: 46px 0;
+  font-size: 16px;
+}
+.single-post__title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.single-post__subtile-zone {
+  margin: 10px 0;
+}
+
+.signle-post__feature-img {
+  width: 100%;
+}
+
+.single-post__share-box {
+  height: 96px;
+  background: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px 0 19px;
+}
+.facebook__logo {
+  width: 48px;
+  height: 48px;
+}
+.facebook__embedded {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+}
+.grid-post {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.single-post__relate-zone {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.single-post__relate-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #2e3230;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.single-post__relate {
+  max-width: 350px;
+}
